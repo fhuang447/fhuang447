@@ -2,8 +2,12 @@
 <header style="
   background: url('{{ "/img/mouse.jpg" | relative_url }}') no-repeat center center;
   background-size: cover;
-  /* optional: set a min-height if you need more space */
   min-height: 400px;
+  position: relative;       /* for absolutely positioned overlay */
+  color: white;             /* default text color */
 ">
-  <div class="container">
-    …
+  <div class="container header-text">
+    <h1>Felix Huang</h1>
+    <p class="subtitle">Cellular &amp; Molecular Biologist – Data Scientist</p>
+  </div>
+</header>
