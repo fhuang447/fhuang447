@@ -1,13 +1,14 @@
-<!-- _includes/header.html -->
 <header style="
   background: url('{{ "/img/mouse.jpg" | relative_url }}') no-repeat center center;
   background-size: cover;
   min-height: 500px;
-  position: relative;       /* for absolutely positioned overlay */
-  color: black;             /* default text color */
+  display: flex;             /* enable flex centering */
+  align-items: center;       /* vertical centering */
+  justify-content: center;   /* horizontal centering */
+  color: black;              /* text color */
 ">
-  <div class="container header-text">
-    <h1>Felix Huang</h1>
+  <div class="container text-center">
+    <h1 style="margin-bottom: 0.5em;">Felix Huang</h1>
     <p class="subtitle">Cellular &amp; Molecular Biologist – Data Scientist</p>
   </div>
 </header>
